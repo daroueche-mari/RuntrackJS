@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RuntrackJS</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form id="filtrePokemon">
+    <label>ID : <input type="text" id="pokemonId"></label>
+    <label>Nom : <input type="text" id="pokemonNom"></label>
+    
+    <label>Type : 
+        <select id="pokemonType">
+            <option value="">Tous les types</option>
+            <option value="Fire">Fire</option>
+            <option value="Water">Water</option>
+            <option value="Plant">Plant</option>
+            <option value="Electrik">Electrik</option>
+            </select>
+    </label>
+
+    <button type="button" id="btnFiltrer">Filtrer</button>
+</form>
+
+<div id="resultats"></div>
+</body>
+</html>
