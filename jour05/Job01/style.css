@@ -1,0 +1,101 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #0F9D58;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    padding-left: 20px;
+}
+
+.btn-log {
+    margin-left: auto;
+    padding-right: 30px;
+}
+
+#btn-signin {
+    padding: 5px;
+}
+
+#btn-signup {
+    padding: 5px;
+}
+
+#btn-signin:hover {
+    background-color: #00ff2a;
+}
+
+#btn-signup:hover {
+    background-color: #00ff2a;
+}
+
+.myform {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+fieldset {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#form-signin {
+    background-color: #0F9D58;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: span 2;
+    padding: 10px;
+    width: 90px;
+    cursor: pointer;
+    color: white;
+}
+
+#form-signin:hover {
+    background-color: #00ff2a;
+}
+
+#form-signup {
+    background-color: #0F9D58;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: span 2;
+    padding: 10px;
+    width: 105px;
+    cursor: pointer;
+    color: white;
+}
+
+#form-signup:hover {
+    background-color: #00ff2a;
+}
+
+.section-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.error-text {
+    color: #d93025;
+    /* Rouge erreur Google */
+    font-size: 0.8rem;
+    margin-top: 5px;
+    min-height: 1em;
+    /* Évite que le formulaire "saute" quand le texte apparaît */
+}
+
+/* Style pour l'input quand il y a une erreur */
+input:invalid {
+    border-color: #d93025;
+}
